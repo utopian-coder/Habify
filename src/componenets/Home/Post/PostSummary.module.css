@@ -7,6 +7,12 @@
   background-color: var(--color-white);
 }
 
+.post-summary:first-child {
+  color: var(--color-primary-two);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
 .title,
 .reply {
   color: var(--color-primary-two);
@@ -23,4 +29,12 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-size: var(--font-size-tertiary);
+}
+
+.tag {
+  color: white;
+  background-color: #262020;
+  border-radius: 0.1rem;
+  padding: 0.2rem;
 }

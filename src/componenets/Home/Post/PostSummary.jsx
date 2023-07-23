@@ -9,7 +9,8 @@ function PostSummary({ post, styles }) {
       <div className={classes.title}>
         {title}
         <div className={classes.tags}>
-          {tags && tags.map((tag) => <span>{tag}</span>)}
+          {tags &&
+            tags.map((tag) => <span className={classes.tag}>{tag}</span>)}
         </div>
       </div>
       <div>{catagory}</div>

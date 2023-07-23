@@ -1,6 +1,8 @@
 .form-container {
   background-color: #fff;
   padding-bottom: 3rem;
+  border-radius: 2rem 2rem 0 0;
+  overflow: hidden;
 }
 
 .btn {
@@ -12,4 +14,26 @@
   border-radius: 0.2rem;
   font-weight: var(--font-semibold);
   cursor: pointer;
+}
+
+.welcome {
+  background-color: var(--color-secondary-variant);
+  text-align: center;
+  padding: 2rem 4rem 4rem;
+}
+
+.welcome img {
+  width: 30%;
+}
+
+.welcome h4 {
+  color: var(--color-primary-two);
+  font-weight: 500;
+  margin: 3rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+.welcome p {
+  color: var(--color-secondary);
+  font-weight: 400;
 }
