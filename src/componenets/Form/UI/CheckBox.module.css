@@ -1,0 +1,38 @@
+.checkbox {
+  padding: 0.6rem 0.8rem;
+  border: 0.5px solid var(--color-secondary-variant);
+  /* max-width: fit-content; */
+  font-size: var(--font-size-tertiary);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.checkbox-control {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--color-secondary-variant);
+  border-radius: 2px;
+  position: relative;
+}
+
+.checkbox-control:checked::before {
+  content: "\2714";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}

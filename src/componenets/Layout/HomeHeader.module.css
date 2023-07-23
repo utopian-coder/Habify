@@ -1,0 +1,85 @@
+.header {
+  padding: 1rem 0;
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header-content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-left: 0.5px solid var(--color-secondary-variant);
+  border-right: 0.5px solid var(--color-secondary-variant);
+  padding: 0 1rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-secondary);
+  font-size: var(--font-size-lg);
+  width: 25rem;
+}
+
+.search-bar input {
+  font-size: 1rem;
+  width: 80%;
+  color: var(--color-secondary-variant);
+}
+
+.topics,
+.latest-topics {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary-two);
+}
+
+.latest-topics {
+  gap: 0.8rem;
+}
+
+.drop-icon,
+.noification {
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-secondary);
+}
+
+.profile-icon {
+  margin-right: 0.5rem;
+  font-size: var(--font-size-tertiary);
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%; /* Creates the circular shape */
+  background-color: #200d52;
+  color: var(--color-white);
+  font-weight: var(--font-semibold);
+}
+
+.profile-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

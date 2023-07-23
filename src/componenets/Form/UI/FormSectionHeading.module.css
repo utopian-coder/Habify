@@ -1,0 +1,28 @@
+.section-heading {
+  font-size: var(--font-size-tertiary);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 2.5rem 0;
+}
+
+.section-heading span {
+  font-weight: var(--font-semibold);
+}
+
+.section-heading::before {
+  content: "";
+  height: 1px;
+
+  width: 3%;
+  background-color: var(--color-secondary-variant);
+  display: inline-block;
+}
+
+.section-heading::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: var(--color-secondary-variant);
+  display: inline-block;
+}

@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3rem 8rem; /*must be adjusted for md and sm */
+}
+
+.header a {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-secondary-variant);
+}
+
+.header p {
+  color: var(--color-secondary);
+  font-size: var(--font-size-secondary);
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

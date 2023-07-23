@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  width: 75%;
+  gap: 2rem;
+  margin: 0 auto;
+  border-bottom: 2px solid var(--color-secondary-variant);
+  font-size: var(--font-size-secondary);
+}
+
+.filters a {
+  color: var(--color-secondary);
+}
+
+.btn {
+  padding: 0.5rem 0.8rem;
+  background-color: var(--color-secondary-variant);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.btn {
+  color: var(--color-primary-two) !important;
+}

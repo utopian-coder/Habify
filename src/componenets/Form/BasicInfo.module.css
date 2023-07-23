@@ -1,0 +1,31 @@
+.basic-info {
+  padding: 2rem 2rem 0.5rem;
+}
+
+.form-control-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  border-bottom: 2px solid var(--color-secondary-variant);
+  padding: 0.5rem 0.5rem 1rem 0;
+  font-size: var(--font-size-primary);
+  font-weight: var(--font-bold);
+}
+
+.form-control-container label {
+  color: var(--color-secondary);
+  font-size: var(--font-size-secondary);
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.name .form-control-container {
+  width: 45%;
+}

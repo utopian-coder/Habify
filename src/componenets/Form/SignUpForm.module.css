@@ -1,0 +1,15 @@
+.form-container {
+  background-color: #fff;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  padding: 0.6rem 0;
+  width: 92%;
+  margin: 0.5rem 2rem;
+  background-color: var(--color-primary-one);
+  color: var(--color-white);
+  border-radius: 0.2rem;
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+}

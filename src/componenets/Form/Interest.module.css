@@ -1,0 +1,15 @@
+.interests-container {
+  padding: 1.2rem 2rem 1.5rem;
+}
+
+.interests-container p {
+  font-size: var(--font-size-secondary);
+  color: var(--color-secondary);
+}
+
+.interests {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  row-gap: 1.2rem;
+  margin-top: 2rem;
+}

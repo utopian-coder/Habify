@@ -1,0 +1,8 @@
+.posts-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.posts-container > article:nth-child(2n) {
+  background-color: #edf3fa;
+}

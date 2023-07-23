@@ -1,0 +1,26 @@
+.post-summary {
+  display: grid;
+  grid-template-columns: 40% repeat(2, 15%) repeat(3, 10%);
+  color: var(--color-secondary);
+  font-size: var(--font-size-secondary);
+  padding: 1rem 1rem;
+  background-color: var(--color-white);
+}
+
+.title,
+.reply {
+  color: var(--color-primary-two);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

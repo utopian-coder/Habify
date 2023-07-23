@@ -1,0 +1,35 @@
+.terms-container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 1rem 2rem 2rem;
+  font-size: var(--font-size-tertiary);
+  color: var(--color-secondary);
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.control {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--color-secondary-variant);
+  border-radius: 2px;
+  position: relative;
+}
+
+.control:checked::before {
+  content: "\2714";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}

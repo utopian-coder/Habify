@@ -1,0 +1,7 @@
+.socials {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  gap: 6%;
+  padding: 2rem 2rem 0;
+  margin-bottom: 1rem;
+}

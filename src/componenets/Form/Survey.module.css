@@ -1,0 +1,8 @@
+.survey {
+  padding: 0 2rem 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+  row-gap: 20%;
+}
